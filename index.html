@@ -48,14 +48,20 @@
                             <div class="textarea-wrapper">
                                 <label for="medical-info">Informações Médias</label>
                                 <textarea name="medical-info" id="medical-info"
-                                cols="30" rows="10" placeholder="A Criança Possui alguma condição média que devemos estar cientes? Se sim, use este campo para explicar!"
+                                cols="30" rows="6" placeholder="A Criança Possui alguma condição média que devemos estar cientes? Se sim, use este campo para explicar!"
                                 ></textarea>
                             </div>
 
                             <div class="droparea-wrapper">
-                                <input type="file" id="birth-file" name="birth-file">
-                                <img src="assets/icons/cloud-upload.svg" alt="ícone de upload">
-                                <p>Clique aqui<br>Selecionar os arquivos</p>
+                                <label for="birth-file">Certidão de Nascimento</label>
+
+                                <div class="dropzone">
+                                    <input type="file" id="birth-file" name="birth-file">
+                                    <img src="assets/icons/cloud-upload.svg" alt="ícone de upload">
+                                    <p>Clique aqui para <br>
+                                    Selecionar Arquivos
+                                    </p>
+                                </div>
                             </div>
                     </fieldset>
                 </form>
